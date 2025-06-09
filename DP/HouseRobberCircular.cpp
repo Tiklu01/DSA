@@ -23,7 +23,7 @@ class Solution {
     };
 int main() {
     Solution s;
-    vector<int> houses = {2, 3, 2, 5, 7, 8};  // circular houses
+    vector<int> houses = {2,1,4,9};  // circular houses
     cout << "Max amount robbed: " << s.rob(houses) << endl;
     return 0;
 }
